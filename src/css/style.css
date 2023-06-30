@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto'; 
+    color: lightgray
+}
+body {
+    background: rgb(1, 1, 56);
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.nav-elem {
+    text-decoration: none;
+    color: lightgray;
+    transition-duration: .3s;
+    display: block;
+}
+
+.nav-elem:hover {
+    transform: scale(1.2);
+    border-bottom: 1px solid darkblue;
+    
+}
+.home-btn {
+    width: 160px;
+    height: 50px;
+    border: none;
+    background: darkblue;
+    color: white;
+    border-radius: 2rem;
+    border: 1px solid white;
+    transition-duration: 0.4s;
+}
+
+.home-btn:hover {
+    background: white;
+    color: darkblue
+}
+
+.home-img {
+    display: block;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.home-img:hover {
+    transform: scale(1.2);
+}
+
+.about-text {
+    letter-spacing: 3px;
+}
+    
+.about-card {
+    border-radius: 1rem;
+    background: darkblue;
+    width: 300px;
+    height: 300px;
+}
+.about-card h3 {
+    display: inline-block;
+    border-radius: 1rem;
+
+}
+.about-text:hover {
+    
+}
+.about-card-head {
+    background: rgb(0, 21, 53);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.about-circle  {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(106, 59, 194)
+}
+
+.projects-card{
+display: flex;
+justify-content: center;
+}
+.project-img {
+    border-radius: 2rem;
+}
+.project-btn {
+    width: 140px;
+    height: 50px;
+border-radius: 2rem;
+border: none;
+background: darkblue;
+}
+
+.projects-left {
+    
+    border-radius: 2rem;
+}
+
+.contacts {
+    width: 400px;
+    background: darkblue;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+}
